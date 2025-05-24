@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berlin AI Localization</title>
+    
+    <!-- Spline 3D Integration -->
+    <script src="https://unpkg.com/@splinetool/viewer@1.0.85/build/spline-viewer.js"></script>
+    
+    <!-- FloraFauna-style Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- 3D Background -->
+    <spline-viewer 
+        url="https://my.spline.design/nexbotrobotcharacterconcept-V5k1JdTo0Z62BAALmGNIzHDe/" 
+        events-target="global"
+        loading-anim-type="spinner-small-dark"
+    ></spline-viewer>
+
+    <!-- FloraFauna-style Content Overlay -->
+    <div class="content-wrapper">
+        <header data-aos="fade-down">
+            <h1 class="gradient-text">Berlin AI Localization</h1>
+            <p class="subtitle">Native-Quality Dubbing Solutions</p>
+        </header>
+
+        <!-- Floating Cards -->
+        <div class="card-grid">
+            <div class="service-card" data-aos="zoom-in">
+                <h2>Restaurant Menus</h2>
+                <p>German → Spanish translation with regional dialects</p>
+                <div class="price-tag">€490/video</div>
+            </div>
+            <!-- Add more cards -->
+        </div>
+
+        <!-- Blog Section -->
+        <section class="blog-section" id="blog">
+            <h2>Latest Insights</h2>
+            <div id="blog-posts"></div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- CMS Integration -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- 3D Background Container -->
+<div class="spline-container">
+    <spline-viewer 
+        url="https://my.spline.design/nexbotrobotcharacterconcept-V5k1JdTo0Z62BAALmGNIzHDe/"
+        events-target="global"
+        loading-anim-type="spinner-small-dark"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: -1;"
+    ></spline-viewer>
+</div>
+
+<!-- Content Overlay -->
+<div class="content-overlay">
+    <!-- Your website content -->
+</div>
+</body>
+</html>
